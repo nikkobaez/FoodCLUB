@@ -16,6 +16,7 @@
 		FAE4560D2AC651EC000BC677 /* retailers.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE4560C2AC651EC000BC677 /* retailers.json */; };
 		FAE4560F2AC656D5000BC677 /* RetailerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4560E2AC656D5000BC677 /* RetailerViewModel.swift */; };
 		FAE4561D2AC69439000BC677 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4561C2AC69439000BC677 /* CartView.swift */; };
+		FAE456202AC6FBC9000BC677 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4561F2AC6FBC9000BC677 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FAE4560C2AC651EC000BC677 /* retailers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = retailers.json; sourceTree = "<group>"; };
 		FAE4560E2AC656D5000BC677 /* RetailerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailerViewModel.swift; sourceTree = "<group>"; };
 		FAE4561C2AC69439000BC677 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		FAE4561F2AC6FBC9000BC677 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		FAE455F62AC64020000BC677 /* FoodCLUB */ = {
 			isa = PBXGroup;
 			children = (
+				FAE4561E2AC6FBBE000BC677 /* Managers */,
 				FAE456072AC640C4000BC677 /* Views */,
 				FAE456062AC640BC000BC677 /* ViewModels */,
 				FAE456052AC640B8000BC677 /* Models */,
@@ -104,6 +107,14 @@
 				FAE4561C2AC69439000BC677 /* CartView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FAE4561E2AC6FBBE000BC677 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4561F2AC6FBC9000BC677 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				FAE4561D2AC69439000BC677 /* CartView.swift in Sources */,
 				FAE456092AC640E9000BC677 /* RetailerModel.swift in Sources */,
 				FAE455FA2AC64020000BC677 /* RetailerView.swift in Sources */,
+				FAE456202AC6FBC9000BC677 /* LocationManager.swift in Sources */,
 				FAE455F82AC64020000BC677 /* FoodCLUBApp.swift in Sources */,
 				FAE4560F2AC656D5000BC677 /* RetailerViewModel.swift in Sources */,
 				FAE4560B2AC6412E000BC677 /* ProductModel.swift in Sources */,
