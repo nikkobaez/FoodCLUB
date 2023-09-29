@@ -1,0 +1,50 @@
+[
+    {
+        "id":"store1",
+        "name": "Brookshires",
+        "latitude": 33.0134909,
+        "longitude": -80.1689070,
+        "products": [
+            {
+                "id":"product1",
+                "name": "Apples"
+            },
+            {
+                "id":"product2",
+                "name": "Oranges"
+            }
+        ]
+    },
+    {
+        "id":"store2",
+        "name": "Food King Cost Plus",
+        "latitude": 33.0838673,
+        "longitude": -80.2092008,
+        "products": [
+            {
+                "id":"product3",
+                "name": "Milk"
+            },
+            {
+                "id":"product4",
+                "name": "Cereal"
+            }
+        ]
+    },
+    {
+        "id":"store3",
+        "name": "Lowe's Market",
+        "latitude": 33.1124320,
+        "longitude": -80.3117561,
+        "products": [
+            {
+                "id":"product5",
+                "name": "Eggs"
+            },
+            {
+                "id":"product6",
+                "name": "Milk"
+            }
+        ]
+    },
+]
